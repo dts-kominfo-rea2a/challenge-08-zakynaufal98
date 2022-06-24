@@ -1,0 +1,64 @@
+
+
+#app{
+    display: flex;
+    background-color: rgb(55, 73, 173);
+    align-items: center;
+    max-width: 40rem;
+    min-height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    
+}
+
+#todo-title{
+    color: red;
+}
+
+#todo-subtitle{
+    color: white;
+}
+
+.inputData{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    margin-top: 1rem;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none; 
+    border-radius:10px;
+    min-height:30px; 
+    min-width: 100px;
+    cursor: pointer;
+    
+}
+
+.button:hover{
+    background-color: red;
+}
+
+.outputData{
+    margin-top: 2rem;
+   
+    width: 30rem;
+}
+
+.judulOutput{
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+
+.outputData li{
+    color: rgb(238, 202, 0);
+    margin-top: 5px;
+    margin-left: -20px;
+}
+
+
